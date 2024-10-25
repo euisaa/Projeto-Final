@@ -1,8 +1,28 @@
+:root{
+    --text-color: #000000;
+    --card-front-color: #772D2D;
+    --card-back-color: #29c931;
+}
 body{
     background-color: brown;
+    font-size: Arial;
+}
+.cartao__conteudo{
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartao {
+    margin: 
 }
 footer{
     background-color: black;
-    color: white;
+    color: rgb(185, 61, 61);
     bottom: 0%;
 }
